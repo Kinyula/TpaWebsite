@@ -406,9 +406,11 @@
                 class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-warning"
                 style="width: 120px; height: 120px">
                 <h1 id="yearsCounter" class="display-1 mb-n2">
-                  @php $startYear = 2005; // Replace with your start year
+                  <?php 
+                  $startYear = 2005; 
                   $currentYear = date('Y'); // Get the current year $yearsPassed
-                  = $currentYear - $startYear; @endphp 0
+                  = $currentYear - $startYear;  0
+                  ?>
                 </h1>
               </div>
               <div class="ps-4">
