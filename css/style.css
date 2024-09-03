@@ -233,7 +233,7 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('TpaWebsite/HomeImages/container-port-loading-stacked.jpg') center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/HomeImages/container-port-loading-stacked.jpg) center center no-repeat;
     background-size: cover;
 }
 
