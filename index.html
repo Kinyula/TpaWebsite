@@ -405,13 +405,17 @@
               <div
                 class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-warning"
                 style="width: 120px; height: 120px">
-                <h1 id="yearsCounter" class="display-1 mb-n2">
-                  <?php 
-                  $startYear = 2005; 
-                  $currentYear = date('Y'); // Get the current year $yearsPassed
-                  = $currentYear - $startYear;  0
-                  ?>
-                </h1>
+                <h1 id="yearsCounter" class="display-1 mb-n2"></h1>
+
+                <script>
+                  const startYear = 2005;
+                  const currentYear = new Date().getFullYear(); // Get the current year
+                  const yearsPassed = currentYear - startYear; // Calculate the number of years passed
+                
+                  document.getElementById('yearsCounter').textContent = yearsPassed;
+                </script>
+                
+                
               </div>
               <div class="ps-4">
                 <h3>Years</h3>
